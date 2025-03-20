@@ -34,7 +34,8 @@ La solución utiliza una cola (`Queue`) para mantener el orden de llegada de los
 Otra posibilidad sería usar un sistema de tickets, donde cada paciente recibe un número de ticket al llegar al hospital. Los pacientes realizarían las pruebas de diagnóstico en función de su número de ticket. Sin embargo, esta solución sería más compleja de implementar y menos eficiente que usar una cola.
 
 ## Capturas de pantalla
-Incluye aquí capturas de pantalla de la ejecución del programa.
+![image](https://github.com/user-attachments/assets/dd83c4cf-3428-49fe-9314-0953508c65c0)
+
 
 ## Conclusión
 Este programa garantiza que los pacientes realicen las pruebas de diagnóstico en el orden de llegada, utilizando una cola para mantener el orden y un semáforo para controlar el acceso a las máquinas de diagnóstico.
