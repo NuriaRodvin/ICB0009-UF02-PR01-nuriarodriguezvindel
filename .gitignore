@@ -1,0 +1,6 @@
+# Ignorar carpetas bin/ y obj/
+bin/
+obj/
+
+# Ignorar configuración de VSCode
+.vscode/
