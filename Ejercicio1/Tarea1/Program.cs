@@ -83,3 +83,5 @@ class Hospital
         Console.WriteLine("Todos los pacientes han sido atendidos.");
     }
 }
+
+
