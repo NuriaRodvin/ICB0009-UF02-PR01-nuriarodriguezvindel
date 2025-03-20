@@ -9,20 +9,22 @@ Este programa simula la llegada de **20 pacientes** a un hospital, donde:
 - Si no hay consultas médicas disponibles, los pacientes esperan en la sala de espera.
 
 ## Requisitos
-1. **Generación de pacientes:**
-   - Cada paciente tiene un **ID único**, un **tiempo de llegada**, un **tiempo de consulta** (entre 5 y 15 segundos), y un **requerimiento de diagnóstico** (50% de probabilidad).
-   - Los pacientes llegan cada **2 segundos**.
+### 1. Generación de pacientes
+- Cada paciente tiene un **ID único**, un **tiempo de llegada**, un **tiempo de consulta** (entre 5 y 15 segundos), y un **requerimiento de diagnóstico** (50% de probabilidad).
+- Los pacientes llegan cada **2 segundos**.
 
-2. **Sala de espera:**
-   - Si no hay consultas médicas disponibles, los pacientes esperan en la sala de espera.
-   - La sala de espera tiene una capacidad de **20 pacientes**.
+### 2. Sala de espera
+- Si no hay consultas médicas disponibles, los pacientes esperan en la sala de espera.
+- La sala de espera tiene una capacidad de **20 pacientes**.
 
-3. **Diagnóstico:**
-   - Los pacientes que requieren diagnóstico deben realizarlo en el orden de llegada.
-   - Solo **2 pacientes** pueden usar las máquinas de diagnóstico simultáneamente.
+### 3. Diagnóstico
+- Los pacientes que requieren diagnóstico deben realizarlo en el orden de llegada.
+- Solo **2 pacientes** pueden usar las máquinas de diagnóstico simultáneamente.
 
-4. **Visualización:**
-   - Mostrar por consola el estado de los pacientes, incluyendo su tiempo de espera, tiempo de consulta y tiempo de diagnóstico (si es necesario).
+### 4. Visualización
+- Se muestra por consola el estado de los pacientes, incluyendo su tiempo de espera, tiempo de consulta y tiempo de diagnóstico (si es necesario).
+
+---
 
 ## Implementación
 
@@ -133,7 +135,9 @@ Otra posibilidad de solución:
 Otra posibilidad sería utilizar un sistema de prioridades para gestionar el acceso a las consultas y las máquinas de diagnóstico. Por ejemplo, los pacientes con mayor prioridad (emergencias) podrían ser atendidos primero, independientemente de su orden de llegada. Sin embargo, esta solución sería más compleja de implementar y requeriría un sistema de gestión de prioridades adicional.
 
 Capturas de pantalla
-Incluye capturas de pantalla de la ejecución del programa, mostrando los mensajes de consola con el estado de los pacientes.
+
+![image](https://github.com/user-attachments/assets/956889c4-05b5-48e1-8b26-9d50dbcdd30a)
+
 
 Conclusión
 Este programa simula de manera efectiva la atención de 20 pacientes en un hospital, gestionando tanto las consultas médicas como las pruebas de diagnóstico. Se ha utilizado sincronización para garantizar que los recursos no se sobresaturen y que los pacientes sean atendidos en el orden correcto.
