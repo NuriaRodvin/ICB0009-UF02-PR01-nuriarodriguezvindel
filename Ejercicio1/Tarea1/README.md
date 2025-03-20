@@ -38,7 +38,8 @@ Al ejecutar el programa, se mostrarán los siguientes mensajes en la consola:
 
 
 ## Capturas de pantalla
-Incluye aquí capturas de pantalla de la ejecución del programa.
+![image](https://github.com/user-attachments/assets/83fccff4-27ad-4893-adfa-d5b119524aab)
+
 
 ---
 
