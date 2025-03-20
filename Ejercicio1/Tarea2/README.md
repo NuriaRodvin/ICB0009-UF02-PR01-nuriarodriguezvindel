@@ -29,4 +29,4 @@ Todos los pacientes han sido atendidos.
 
 
 ## Capturas de pantalla
-Incluye aquí capturas de pantalla de la ejecución del programa.
+![image](https://github.com/user-attachments/assets/90723bab-309e-4ca7-9526-bea62b1d56b9)
