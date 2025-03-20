@@ -27,6 +27,32 @@ Este programa simula la llegada de **20 pacientes** a un hospital, donde:
 ### 4. Visualización
 - Se muestra por consola el estado de los pacientes, incluyendo su tiempo de espera, tiempo de consulta y tiempo de diagnóstico (si es necesario).
 
+## Preguntas y respuestas
+1. ¿Los pacientes que deben esperar entran luego a la consulta por orden de llegada? Explica qué tipo de pruebas has realizado para comprobar este comportamiento.
+Respuesta:
+Sí, los pacientes que deben esperar entran a la consulta por orden de llegada. Para comprobar este comportamiento, se han realizado las siguientes pruebas:
+
+Prueba con 20 pacientes: Se ha verificado que los pacientes que llegan primero son atendidos primero, independientemente de su tiempo de consulta.
+
+Prueba con tiempos de consulta variables: Se ha observado que, aunque algunos pacientes tienen tiempos de consulta más largos, el orden de llegada se mantiene.
+
+Prueba con diagnóstico: Se ha verificado que los pacientes que requieren diagnóstico realizan las pruebas en el orden de llegada, utilizando la cola de diagnóstico.
+
+2. Explica el planteamiento de tu código y plantea otra posibilidad de solución a la que has programado.
+Respuesta:
+El planteamiento del código utiliza semáforos para controlar el acceso a las consultas médicas y las máquinas de diagnóstico, y una cola para mantener el orden de llegada de los pacientes que requieren diagnóstico. Esto garantiza que los pacientes sean atendidos en el orden correcto y que no se exceda el límite de recursos disponibles.
+
+Otra posibilidad de solución:
+Otra posibilidad sería utilizar un sistema de prioridades para gestionar el acceso a las consultas y las máquinas de diagnóstico. Por ejemplo, los pacientes con mayor prioridad (emergencias) podrían ser atendidos primero, independientemente de su orden de llegada. Sin embargo, esta solución sería más compleja de implementar y requeriría un sistema de gestión de prioridades adicional.
+
+Capturas de pantalla
+![image](https://github.com/user-attachments/assets/262d879c-4316-4ede-a827-052da4372485)
+
+
+Conclusión
+Este programa simula de manera efectiva la atención de 20 pacientes en un hospital, gestionando tanto las consultas médicas como las pruebas de diagnóstico. Se ha utilizado sincronización para garantizar que los recursos no se sobresaturen y que los pacientes sean atendidos en el orden correcto.
+
+
 ---
 
 ## Implementación
@@ -120,28 +146,4 @@ class Program
 }
 
 
-## Preguntas y respuestas
-1. ¿Los pacientes que deben esperar entran luego a la consulta por orden de llegada? Explica qué tipo de pruebas has realizado para comprobar este comportamiento.
-Respuesta:
-Sí, los pacientes que deben esperar entran a la consulta por orden de llegada. Para comprobar este comportamiento, se han realizado las siguientes pruebas:
-
-Prueba con 20 pacientes: Se ha verificado que los pacientes que llegan primero son atendidos primero, independientemente de su tiempo de consulta.
-
-Prueba con tiempos de consulta variables: Se ha observado que, aunque algunos pacientes tienen tiempos de consulta más largos, el orden de llegada se mantiene.
-
-Prueba con diagnóstico: Se ha verificado que los pacientes que requieren diagnóstico realizan las pruebas en el orden de llegada, utilizando la cola de diagnóstico.
-
-2. Explica el planteamiento de tu código y plantea otra posibilidad de solución a la que has programado.
-Respuesta:
-El planteamiento del código utiliza semáforos para controlar el acceso a las consultas médicas y las máquinas de diagnóstico, y una cola para mantener el orden de llegada de los pacientes que requieren diagnóstico. Esto garantiza que los pacientes sean atendidos en el orden correcto y que no se exceda el límite de recursos disponibles.
-
-Otra posibilidad de solución:
-Otra posibilidad sería utilizar un sistema de prioridades para gestionar el acceso a las consultas y las máquinas de diagnóstico. Por ejemplo, los pacientes con mayor prioridad (emergencias) podrían ser atendidos primero, independientemente de su orden de llegada. Sin embargo, esta solución sería más compleja de implementar y requeriría un sistema de gestión de prioridades adicional.
-
-Capturas de pantalla
-![image](https://github.com/user-attachments/assets/262d879c-4316-4ede-a827-052da4372485)
-
-
-Conclusión
-Este programa simula de manera efectiva la atención de 20 pacientes en un hospital, gestionando tanto las consultas médicas como las pruebas de diagnóstico. Se ha utilizado sincronización para garantizar que los recursos no se sobresaturen y que los pacientes sean atendidos en el orden correcto.
 
