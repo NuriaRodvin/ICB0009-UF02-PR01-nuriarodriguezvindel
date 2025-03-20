@@ -44,4 +44,4 @@ Al ejecutar el programa, se mostrarán los siguientes mensajes en la consola:
 ---
 
 ## Conclusión
-Este programa cumple con todos los requisitos de la tarea y demuestra el uso de **hilos asíncronos** y **SemaphoreSlim** para gestionar recursos limitados (médicos). Además, está bien documentado y responde a las preguntas planteadas en el enunciado.
+Este programa cumple con todos los requisitos de la tarea y demuestra el uso de **hilos asíncronos** y **SemaphoreSlim** para gestionar recursos limitados (médicos).
