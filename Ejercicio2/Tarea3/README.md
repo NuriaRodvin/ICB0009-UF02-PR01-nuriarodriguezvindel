@@ -8,7 +8,10 @@ Este programa simula la llegada de **20 pacientes** a un hospital, donde:
 - Los pacientes que requieren diagnóstico deben realizarlo en el orden de llegada.
 - Si no hay consultas médicas disponibles, los pacientes esperan en la sala de espera.
 
+---
+
 ## Requisitos
+
 ### 1. Generación de pacientes
 - Cada paciente tiene un **ID único**, un **tiempo de llegada**, un **tiempo de consulta** (entre 5 y 15 segundos), y un **requerimiento de diagnóstico** (50% de probabilidad).
 - Los pacientes llegan cada **2 segundos**.
@@ -135,8 +138,7 @@ Otra posibilidad de solución:
 Otra posibilidad sería utilizar un sistema de prioridades para gestionar el acceso a las consultas y las máquinas de diagnóstico. Por ejemplo, los pacientes con mayor prioridad (emergencias) podrían ser atendidos primero, independientemente de su orden de llegada. Sin embargo, esta solución sería más compleja de implementar y requeriría un sistema de gestión de prioridades adicional.
 
 Capturas de pantalla
-
-![image](https://github.com/user-attachments/assets/956889c4-05b5-48e1-8b26-9d50dbcdd30a)
+![image](https://github.com/user-attachments/assets/262d879c-4316-4ede-a827-052da4372485)
 
 
 Conclusión
