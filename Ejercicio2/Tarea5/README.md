@@ -30,6 +30,10 @@ Tiempo promedio de espera: 20.00 segundos
 
 Uso promedio de las máquinas de diagnóstico: 7.50 pacientes por máquina
 
+### Otro ejemplo de salida con copia de pantalla
+![image](https://github.com/user-attachments/assets/319be9e9-7da8-4df0-a917-36f13636b790)
+
+
 
 ## Preguntas y respuestas
 
