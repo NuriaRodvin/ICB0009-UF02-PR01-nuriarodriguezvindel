@@ -30,3 +30,4 @@ Todos los pacientes han sido atendidos.
 
 ## Capturas de pantalla
 Incluye aquí capturas de pantalla de la ejecución del programa.
+
