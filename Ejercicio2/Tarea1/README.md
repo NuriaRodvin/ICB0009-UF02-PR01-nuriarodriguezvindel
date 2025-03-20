@@ -34,6 +34,7 @@ Se muestra por consola el estado de cada paciente, junto con su tiempo de espera
 Paciente <Id>. Llegado el <N>. Estado: <estado>. Duración: <S> segundos.
 
 
+
 ## Ejecución del programa
 Al ejecutar el programa, se mostrarán mensajes como:
 
@@ -47,6 +48,10 @@ Paciente 42. Llegado el 1. Estado: Finalizado.
 
 Todos los pacientes han sido atendidos.
 
+
+## Preguntas
+
+### ¿Los pacientes que deben esperar para hacerse las pruebas diagnóstico entran luego a hacerse las pruebas por orden de llegada?
 
 ## Preguntas
 
