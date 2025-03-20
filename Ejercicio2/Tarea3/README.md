@@ -119,7 +119,8 @@ class Program
     }
 }
 
-Preguntas y respuestas
+
+## Preguntas y respuestas
 1. ¿Los pacientes que deben esperar entran luego a la consulta por orden de llegada? Explica qué tipo de pruebas has realizado para comprobar este comportamiento.
 Respuesta:
 Sí, los pacientes que deben esperar entran a la consulta por orden de llegada. Para comprobar este comportamiento, se han realizado las siguientes pruebas:
