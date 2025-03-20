@@ -18,13 +18,21 @@ El paciente que sale primero de consulta es aquel que tiene el **menor tiempo de
 Al ejecutar el programa, se mostrarán mensajes como:
 
 Paciente 14 ha llegado. Estado: Consulta
+
 Paciente 88 ha llegado. Estado: Consulta
+
 Paciente 6 ha llegado. Estado: Consulta
+
 Paciente 14 ha terminado la consulta. Estado: Finalizado
+
 Paciente 12 ha llegado. Estado: Consulta
+
 Paciente 6 ha terminado la consulta. Estado: Finalizado
+
 Paciente 12 ha terminado la consulta. Estado: Finalizado
+
 Paciente 88 ha terminado la consulta. Estado: Finalizado
+
 Todos los pacientes han sido atendidos.
 
 
