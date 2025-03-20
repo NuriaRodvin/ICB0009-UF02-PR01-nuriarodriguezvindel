@@ -74,6 +74,7 @@ Otra información útil podría ser:
 
 ## Capturas de pantalla
 A continuación se muestra una captura de pantalla de la ejecución del programa:
+![image](https://github.com/user-attachments/assets/5eb1dcce-bf3c-4775-99d1-6a68dac0efcb)
 
 ![Captura de pantalla](https://github.com/user-attachments/assets/3070b4ab-a749-4e15-87fd-9e1d1ef2b71f)
 
