@@ -75,6 +75,8 @@ Este programa simula la atención de pacientes en un hospital con un sistema de 
 
 
 
+
+
 ## Capturas de Pantalla
 
 A continuación se muestra una captura de pantalla de la ejecución del programa:
