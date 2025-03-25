@@ -39,18 +39,20 @@ Paciente 1. Llegado el 0. Prioridad: 1. Estado: Consulta. Duración Espera: 0 se
 Paciente 1. Llegado el 0. Prioridad: 1. Estado: Finalizado. Tiempo total en el hospital: 10 segundos.
 Paciente 2. Llegado el 2. Prioridad: 2. Estado: Consulta. Duración Espera: 0 segundos.
 Paciente 2. Llegado el 2. Prioridad: 2. Estado: Finalizado. Tiempo total en el hospital: 12 segundos.
-Preguntas y respuestas
-1. ¿El generador de pacientes cumple con los requisitos?
+
+
+## Preguntas y respuestas
+- **1.** ¿El generador de pacientes cumple con los requisitos?
 Sí, el generador de pacientes cumple con los requisitos al crear pacientes de manera continua, cada 2 segundos, con datos aleatorios.
 
-2. ¿Qué comportamientos no previstos detectas?
+- **2.** ¿Qué comportamientos no previstos detectas?
 Al aumentar el número de pacientes (N = 50, 100, 1000), se pueden observar los siguientes comportamientos no previstos:
 
 Saturación de recursos: Si hay muchos pacientes que requieren diagnóstico, las máquinas de diagnóstico pueden saturarse, aumentando el tiempo de espera.
 
 Colas largas: Los pacientes pueden acumularse en la cola de espera, especialmente si hay muchos pacientes con alta prioridad.
 
-3. ¿Cómo adaptarías tu solución ante este nuevo escenario?
+- **3.** ¿Cómo adaptarías tu solución ante este nuevo escenario?
 Para manejar un mayor número de pacientes, se podrían implementar las siguientes mejoras:
 
 Aumentar el número de consultas médicas y máquinas de diagnóstico.
@@ -59,11 +61,12 @@ Implementar un sistema de prioridades más eficiente para reducir el tiempo de e
 
 Limitar el número máximo de pacientes en el sistema para evitar la saturación de recursos.
 
-Capturas de pantalla
+## Capturas de pantalla
 A continuación se muestra una captura de pantalla de la ejecución del programa:
+![image](https://github.com/user-attachments/assets/5036939d-11ab-4c0a-b207-a5c6ea3a435e)
 
-Captura de pantalla
 
-Conclusión
+
+## Conclusión
 Este programa simula un generador de pacientes infinito, donde los pacientes son atendidos en función de su prioridad y se muestran estadísticas en tiempo real. Se ha utilizado sincronización para garantizar que los recursos no se sobresaturen y que los pacientes sean atendidos en el orden correcto.
 
