@@ -34,11 +34,17 @@ El programa genera pacientes de manera continua, cada 2 segundos, con datos alea
 ## Ejecución del programa
 
 Ejemplo de salida
+
 Al ejecutar el programa, verás una salida similar a la siguiente:
+
 Paciente 1. Llegado el 0. Prioridad: 1. Estado: Consulta. Duración Espera: 0 segundos.
+
 Paciente 1. Llegado el 0. Prioridad: 1. Estado: Finalizado. Tiempo total en el hospital: 10 segundos.
+
 Paciente 2. Llegado el 2. Prioridad: 2. Estado: Consulta. Duración Espera: 0 segundos.
+
 Paciente 2. Llegado el 2. Prioridad: 2. Estado: Finalizado. Tiempo total en el hospital: 12 segundos.
+
 
 
 ## Preguntas y respuestas
