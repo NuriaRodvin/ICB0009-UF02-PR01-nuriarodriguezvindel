@@ -42,7 +42,7 @@ Se ha utilizado una lista de pacientes que se ordena por prioridad y tiempo de l
 ### Visualización del avance
 Se muestra por consola el estado de cada paciente, junto con su prioridad, tiempo de espera y duración de la consulta o diagnóstico. El formato de visualización es:
 
-Paciente "<Id>". Llegado el "<N>". Prioridad: "<P>". Estado: <estado>. Duración: "<S>" segundos.
+Paciente Id. Llegado el N. Prioridad: P. Estado: <estado>. Duración: S segundos.
 
 
 ## Ejecución del programa
