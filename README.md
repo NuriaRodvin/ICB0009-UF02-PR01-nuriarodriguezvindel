@@ -118,13 +118,6 @@ Compila y ejecuta el programa:
 dotnet run
 
 
-📸 Capturas de pantalla
-A continuación se muestran capturas de pantalla de la ejecución del programa:
-
-Ejercicio	Tarea	Captura de pantalla
-Ejercicio 1	Tarea 1	Captura de pantalla Ejercicio 1
-Ejercicio 2	Tarea 5	Captura de pantalla Ejercicio 2
-Ejercicio 3	Tarea 1	Captura de pantalla Ejercicio 3
 🏁 Conclusión
 Esta práctica ha permitido simular la gestión de la atención hospitalaria, desde la llegada de pacientes hasta su atención en consultas médicas y pruebas de diagnóstico. Se ha utilizado programación asíncrona y sincronización para garantizar que los recursos no se sobresaturen y que los pacientes sean atendidos en el orden correcto.
 
